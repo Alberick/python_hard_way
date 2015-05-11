@@ -16,4 +16,3 @@ print "His teeth are usually %s depending on the cofee." % teeth
 # This line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d." % (age, height, weight,
                                              age + height + weight)
-

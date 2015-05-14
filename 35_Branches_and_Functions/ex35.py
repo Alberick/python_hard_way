@@ -1,5 +1,6 @@
 from sys import exit
 
+
 def gold_room():
     print "This room is full of gold. How much do you take?"
 
@@ -60,7 +61,7 @@ def dead(why):
 
 def start():
     print "You are in a dark room."
-    print "There is a dor to your right and left."
+    print "There is a door to your right and left."
     print "Which one do you take?"
 
     next = raw_input("> ")
@@ -71,5 +72,6 @@ def start():
         cthulhu_room()
     else:
         dead("You stumble around the room until you starve.")
+
 
 start()
